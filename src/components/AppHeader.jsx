@@ -25,8 +25,8 @@ const AppHeader = () => {
         <Menu.Item key="/sponsorships">
           <Link to={"/sponsorships"}>Sponsorships</Link>
         </Menu.Item>
-        <Menu.Item key="/community-tiles">
-          <Link to={"/community-tiles"}>Community</Link>
+        <Menu.Item key="/tiles">
+          <Link to={"/tiles"}>Tiles</Link>
         </Menu.Item>
       </Menu>
     </Header>

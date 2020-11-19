@@ -9,7 +9,7 @@ import AppFooter from "../components/AppFooter";
 
 //Screens
 import Sponsorships from "./Sponsorships";
-import CommunityTiles from "./CommunityTiles";
+import Tiles from "./Tiles";
 import NotFound from "./NotFound";
 
 const Main = () => {
@@ -21,7 +21,7 @@ const Main = () => {
           <Switch>
             <Route exact path={"/"} component={Sponsorships} />
             <Route exact path={"/sponsorships"} component={Sponsorships} />
-            <Route exact path={"/community-tiles"} component={CommunityTiles} />
+            <Route exact path={"/tiles"} component={Tiles} />
             <Route component={NotFound} />
           </Switch>
         </AppContent>
