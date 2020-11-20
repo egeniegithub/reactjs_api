@@ -20,10 +20,10 @@ const Sponsorships = ({ fetchSponsorships, sponsorships }) => {
 
   return (
     <AppPage title={"Sponsorships"}>
-      {loading ? (
-        <Space size="middle">
-          <Spin size="large" />
-        </Space>
+      {loading ? (        
+          <Space size="middle" className="spinner-wrp">
+            <Spin size="large" />
+          </Space>        
       ) : (
         <>
           {sponsorships && sponsorships.length > 0 ? (

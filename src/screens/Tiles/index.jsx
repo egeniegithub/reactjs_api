@@ -20,7 +20,7 @@ const Tiles = ({ fetchTiles, tiles }) => {
   return (
     <AppPage title={"Tiles"}>
       {loading ? (
-        <Space size="middle">
+        <Space size="middle" className="spinner-wrp">
           <Spin size="large" />
         </Space>
       ) : (

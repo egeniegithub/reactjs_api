@@ -14,10 +14,10 @@ import NotFound from "./NotFound";
 
 const Main = () => {
   return (
-    <Layout className={"layout"}>
+    <Layout className={"layout wrapper"}>
       <Router>
         <AppHeader />
-        <AppContent>
+        <AppContent className={"main"}>
           <Switch>
             <Route exact path={"/"} component={Sponsorships} />
             <Route exact path={"/sponsorships"} component={Sponsorships} />
